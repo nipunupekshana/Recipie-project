@@ -1,5 +1,5 @@
 import React from "react";
-
+import './contact.css'
 
 
 const Contact = () => {
@@ -12,7 +12,7 @@ const Contact = () => {
 
   return (
     <div>
-      <p className="tc mv3 pad8 ma7  f3 lh-title ">
+      <p className="para tc  pl7 pr7 ml2 mr2  f3 lh-title  ">
         Nipun upekshana, Self learner,technolgy enthusiastic, an entrepreneur
         and a Graphic designer. Most recently, I've learned to build modern
         day web applications using React JS, and Javascript. I'm interested in
@@ -20,15 +20,13 @@ const Contact = () => {
         things for the current world.
       </p>
 
-      
-
-
-
       <div className="br3 ba dark-gray b--black-10 mv4 w-500 w-50-m w-25-l mw500 shadow-5 center">
         <main class="pa4 black-80">
           <form class="measure ">
             <fieldset id="contact" class="ba b--transparent ph0 mh0">
-              <legend class="f4 fw6 ph0 mh0  b">Contact Us through here :</legend>
+              <legend class="f4 fw6 ph0 mh0  b">
+                Contact Us through here :
+              </legend>
               <div class="mt3">
                 <label class="db fw6 lh-copy f6" htmlFor="name">
                   Name
