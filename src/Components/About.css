@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+
+.page{
+    display: grid;
+    grid-column: 1fr auto;
+    align-items: center;
+    padding: 50px;
+    margin: 1%;
+    padding-bottom:60px
+    
+   
+}
+.pic{
+    height:350px;
+    width: 250px;
+}
+
+.imgcon{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.para{
+     grid-column-start: 1;
+    grid-column-end: 1;
+    
+}
+
+
+
+p{
+    font-family: "Vollkorn",sans-serif;
+    font-size: 30px;
+}
+
+
+
+.fiverr, .github,.linkedin{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 20px;
+    
+
+}
+
+.foo{
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+  
+}

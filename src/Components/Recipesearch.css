@@ -1,0 +1,28 @@
+.search-form{
+    display: flex;
+    justify-content: center; 
+    padding: 30px 3%;
+}
+
+.search-bar{
+    border-style:solid ; 
+    width: 50vw;
+    height: 10vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.search-button {
+    
+    width: 10vw;
+    cursor: pointer;
+    background-color: #2286c3;
+}
+
+@media only screen and (max-width: 600px){
+    .search-button{
+        font-size: 1em;
+        width: 4.5em;
+        padding: 0;
+    
+    }
+}
