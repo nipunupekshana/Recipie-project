@@ -17,7 +17,7 @@ const About = () => {
           I'm interested in seeking full-time or contract employment building
           the next Great things for the current world.
         </p>
-        <div className="imgcon shadow-5">
+        <div className="imgcon ">
           <img className="pic" src={mypic} alt="profile" />
         </div>
         <div>

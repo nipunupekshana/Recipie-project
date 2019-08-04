@@ -4,7 +4,7 @@ import "./App.css";
 import Recipesearch from "./Components/Recipesearch";
 import Navbar from "./Components/Navbar";
 import CardList from "./Components/CardList";
-import About from './Components/About';
+
 import Contact from './Components/Contact';
 
 
@@ -77,7 +77,7 @@ const App = () => {
         <Route path='/' exact render={(props) => <Recipesearch{...props} type={ontype} onSearch={onSearch} /> }
         />
         {/* <Recipesearch type={ontype} onSearch={onSearch} /> */}
-        <Route path="/about" component={About} />
+       
         <Route path="/contact" component={Contact} />
 
         {/* <div className="flex flex-wrap flex justify-center pl3 pr3">

@@ -22,21 +22,12 @@ const Navbar = () => {
                 </Link>
               </li>
 
-              <li>
-                <Link to="/about">
-                  <p
-                   
-                    className="f3 link dim black pa3 pointer"
-                  >
-                    About
-                  </p>
-                </Link>
-              </li>
+              
               <li>
                 <Link to='/contact'>
                   <button
                     className="cta butcon">
-                    Contact
+                    Contact Us
                   </button>
                 </Link>
               </li>
